@@ -23,7 +23,7 @@
   width: auto;
 }
 
-.signup-form button[type="input"] {
+.signup-form button[type="submit"] {
   display: block;
   margin-top: 15px;
 }

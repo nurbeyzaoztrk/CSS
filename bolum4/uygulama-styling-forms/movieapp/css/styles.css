@@ -30,7 +30,6 @@ main {
   background-size: cover;
   background-attachment: fixed;
   height: 80vh;
-  height: 500px;
   width: 100%;
   position: relative;
 }
@@ -211,12 +210,12 @@ main {
   background: #edf5f7;
   padding: 25px 10px;
   border-radius: 5px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   transition: box-shadow 0.6s;
 }
 
 .inner-plan:hover {
-  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.5);
 }
 
 .plan__features {
@@ -291,7 +290,6 @@ main {
   /* top: 0; */
   transition: all 0.3s;
 }
-
 .card:hover {
   /* top: -10px; */
   transform: translateY(-10px);
@@ -313,6 +311,7 @@ footer {
   background-color: #2e4c6d;
   padding: 30px;
   margin-top: 30px;
+
   position: relative;
   bottom: -200px;
 }
